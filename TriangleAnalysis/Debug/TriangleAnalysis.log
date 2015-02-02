@@ -1,11 +1,14 @@
-﻿Build started 2/2/2015 12:24:36 PM.
-     1>Project "C:\Users\hatchjm1\Documents\Visual Studio 2013\Projects\TriangleAnalysis\TriangleAnalysis\TriangleAnalysis.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/2/2015 1:47:18 PM.
+     1>Project "C:\Users\hatchjm1\Documents\OOProgrammingClass\TriangleAnalysis\TriangleAnalysis\TriangleAnalysis.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(355,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
-     1>Link:
-         I:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hatchjm1\Documents\Visual Studio 2013\Projects\TriangleAnalysis\Debug\TriangleAnalysis.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hatchjm1\Documents\Visual Studio 2013\Projects\TriangleAnalysis\Debug\TriangleAnalysis.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hatchjm1\Documents\Visual Studio 2013\Projects\TriangleAnalysis\Debug\TriangleAnalysis.lib" /MACHINE:X86 Debug\main.obj
+     1>ClCompile:
+         I:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         I:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hatchjm1\Documents\OOProgrammingClass\TriangleAnalysis\Debug\TriangleAnalysis.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hatchjm1\Documents\OOProgrammingClass\TriangleAnalysis\Debug\TriangleAnalysis.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hatchjm1\Documents\OOProgrammingClass\TriangleAnalysis\Debug\TriangleAnalysis.lib" /MACHINE:X86 Debug\main.obj
      1>LINK : fatal error LNK1104: cannot open file 'kernel32.lib'
-     1>Done Building Project "C:\Users\hatchjm1\Documents\Visual Studio 2013\Projects\TriangleAnalysis\TriangleAnalysis\TriangleAnalysis.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\hatchjm1\Documents\OOProgrammingClass\TriangleAnalysis\TriangleAnalysis\TriangleAnalysis.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:01.59
+Time Elapsed 00:00:03.05
