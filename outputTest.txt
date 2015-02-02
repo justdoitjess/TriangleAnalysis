@@ -1,17 +1,3 @@
-As a final contribution, each of you should generate numbers from a probability distribution and post the file on-line as part of your discussion. Please don’t reveal what distribution you use.
-
-This should be a one-dimensional set of 1000 numbers. You can use a Gaussian, Poisson, Exponential, or anything that you would like to challenge the rest of the class with.
-
-Please make sure that the numbers are generated from a fully defined mathematical distribution and not simply grabbed from some other source. Each of you should try to guess the distribution used by at least one of your other classmates. The point of this is partly to help you introduce yourselves to one another and partly to help you gain a little experience in working with different types of probability distributions and the pros and cons of inferring a distribution from data.
-
-Finally, review your classmates introductions and objectives. Then comment on them. Did anyone think of something that you didn’t? Did what you read spur you to revise any of your comments?
-
-
-
-
-
-
-
 This program will evaluate three integers that make up a triangle.
 **Any decimal values or extraneous input will be truncated**
 Enter the first side length: 8
