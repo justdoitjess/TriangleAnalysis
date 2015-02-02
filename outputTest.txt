@@ -1,0 +1,127 @@
+As a final contribution, each of you should generate numbers from a probability distribution and post the file on-line as part of your discussion. Please don’t reveal what distribution you use.
+
+This should be a one-dimensional set of 1000 numbers. You can use a Gaussian, Poisson, Exponential, or anything that you would like to challenge the rest of the class with.
+
+Please make sure that the numbers are generated from a fully defined mathematical distribution and not simply grabbed from some other source. Each of you should try to guess the distribution used by at least one of your other classmates. The point of this is partly to help you introduce yourselves to one another and partly to help you gain a little experience in working with different types of probability distributions and the pros and cons of inferring a distribution from data.
+
+Finally, review your classmates introductions and objectives. Then comment on them. Did anyone think of something that you didn’t? Did what you read spur you to revise any of your comments?
+
+
+
+
+
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: 8
+
+Enter the second side length: 4
+
+Enter the third side length: 11
+Triangle created with side lengths: 8, 4, 11
+
+Those sides form a scalene triangle
+
+
+Do you wish to enter another set of side lengths? (Y or N): y
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: 24
+
+Enter the second side length: 24
+
+Enter the third side length: 10
+Triangle created with side lengths: 24, 24, 10
+
+Those sides form an isoscelese triangle
+
+
+Do you wish to enter another set of side lengths? (Y or N): y
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: 3
+
+Enter the second side length: 3
+
+Enter the third side length: 3
+Triangle created with side lengths: 3, 3, 3
+
+Those sides form an equilateral triangle
+
+
+Do you wish to enter another set of side lengths? (Y or N): y
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: a
+Bad value!Try again.
+2
+
+Enter the second side length: a5d
+Bad value!Try again.
+7
+
+Enter the third side length: 7.1
+Triangle created with side lengths: 2, 7, 7
+
+Those sides form an isoscelese triangle
+
+
+Do you wish to enter another set of side lengths? (Y or N): y
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: 27
+
+Enter the second side length: 1
+
+Enter the third side length: 2
+
+
+Sides: 27, 1, 2--Those lengths do not define a triangle. Start Over.
+
+
+
+
+Do you wish to enter another set of side lengths? (Y or N): y
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: -5
+
+Enter the second side length: 0
+
+Enter the third side length: 7
+
+
+Sides: -5, 0, 7--Those lengths do not define a triangle. Start Over.
+
+
+
+
+Do you wish to enter another set of side lengths? (Y or N): y
+
+
+This program will evaluate three integers that make up a triangle.
+**Any decimal values or extraneous input will be truncated**
+Enter the first side length: 4ww5
+
+Enter the second side length: 3
+
+Enter the third side length: 5
+Triangle created with side lengths: 4, 3, 5
+
+Those sides form a scalene triangle
+
+
+Do you wish to enter another set of side lengths? (Y or N): n
+
+End Program.
