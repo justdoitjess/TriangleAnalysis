@@ -9,18 +9,8 @@
 class Triangle
 {
 public:
-   Triangle(int a, int b, int c)
+   Triangle(int a, int b, int c): side1(a), side2(b), side3(c)
    {
-      if (isATriangle(a, b, c))
-      {
-         side1 = a;
-         side2 = b;
-         side3 = c;
-      }
-      else
-      {
-         throw "Side lengths do not define a triangle!";
-      }
    }
 
    ~Triangle()
@@ -42,28 +32,31 @@ public:
          return -1;
       }
    }
-
-   bool isATriangle(int i, int j, int k)
+   
+   static bool isATriangle(int i, //length 1
+                           int j, //length 2
+                           int k) //length 3
    {
+      // the sum of any two sides must be greater than the 
+      // remaining side (must be true for any triangle)
       if ((i + j) > k && (i + k) > j && (j + k) > i)
       {
-         trueTriangle = true;
+         return true;
       }
       else
       {
-         trueTriangle = false;
+         return false;
       }
-
-      return trueTriangle;
    }
 
    bool isAEquilateral()
    {
+      //check that all sides are equal
       if (getSide(1) == getSide(2) && getSide(2) == getSide(3))
       {
          scalene = false;
          equilateral = true;
-         isoscolese = false;
+         isoscelese = false;
       }
       else
       {
@@ -74,12 +67,12 @@ public:
    }
    bool isAScalene()
    {
-
-      if (getSide(1) != getSide(2) && getSide(1) != getSide(3))
+      //check to see that no sides are equal
+      if (getSide(1) != getSide(2) && getSide(2) != getSide(3))
       {
          scalene = true;
          equilateral = false;
-         isoscolese = false;
+         isoscelese = false;
       }
       else
       {
@@ -95,6 +88,7 @@ public:
       bool side13 = false;
       bool side23 = false;
 
+      //check to see that only two sides are equal
       if (getSide(1) == getSide(2) && getSide(2) != getSide(3))
       {
          side12 = true;
@@ -114,23 +108,22 @@ public:
       {
          scalene = false;
          equilateral = false;
-         isoscolese = true;
+         isoscelese = true;
       }
       else
       {
-         isoscolese = false;
+         isoscelese = false;
       }
 
-      return isoscolese;
+      return isoscelese;
    }
 private:
-   int side1;
-   int side2;
-   int side3;
-   bool trueTriangle;
-   bool equilateral;
-   bool isoscolese;
-   bool scalene;
+   int side1; //lenght of side 1 of triangle
+   int side2; //length of side 2 of triangle
+   int side3; //length of side 3 of triangle
+   bool equilateral; //all side lengths are equal
+   bool isoscelese; //only two side lenghts are equal
+   bool scalene; //no side lengths are equal
 }; //end class Triangle
 
 #endif
