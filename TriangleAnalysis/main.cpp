@@ -8,6 +8,7 @@
 // Input: (from standard input) 3 integers--side one, two, and three
 // Output: (to console) The category of triangle--equilateral, 
 //         isosceles, scalene, or not a triangle
+//
 //********************************************************************
 #include "Triangle.h"
 
