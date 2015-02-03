@@ -1,0 +1,57 @@
+Requirements for Triangle Assignment
+
+Requirements:
+1. Read 3 integer values
+2. Print a message that states
+      -->equilateral
+      -->isosceles
+      -->scalene
+3. Allow for multiple triangle testss
+3. Error handling
+      -->non int input, keep asking for input until correct form
+      ->non valid triangle side lengths, start over
+      -->truncate decimal values and extraneous input
+
+Test Cases
+A. non int input (single character, multiple characters, 
+     number with extraneous input, number in midde of extrenous input)
+B. non triangle input
+C. equilateral input
+D. isosceles input
+E. scalene input
+F. Decimal input
+
+Design:
+main.cpp
+      ask for user to input 3 integers
+      make sure input is valid
+      respond with what type of triangle user has input
+      use Triangle Class 
+Triangle.h
+   Constructor, Triangle
+         take in 3 int as input
+   Deconstructor ~Triangle()
+   int getSide(int index)
+         returns the side of the triangle at index 1, 2, or 3. Default case returns -1 and outputs error
+            message to the screen.
+   static bool isATriangle(int i, //length 1
+                           int j, //length 2
+                           int k) //length 3
+            checks to see that the sum of any two sides is greater than the thrid side (requirement for
+               a triangle)
+            This is a static member function so that it can be called without an instance of the class
+            call this before calling the constructor--validates the user input. 
+   bool isAEquilateral()
+            checks is all three sides are equal
+   bool isAScalene()
+            checks that only 2 of three sides are equal
+   bool isAIsoscolese()
+            checks that none of the sides are equal.
+   Member Variables, make all private
+      int side1; //length of side 1 of triangle
+      int side2; //length of side 2 of triangle
+      int side3; //length of side 3 of triangle
+      bool equilateral; //all side lengths are equal
+      bool isoscelese; //only two side lenghts are equal
+      bool scalene; //no side lengths are equal
+

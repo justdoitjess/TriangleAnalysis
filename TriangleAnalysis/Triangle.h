@@ -118,7 +118,7 @@ public:
       return isoscelese;
    }
 private:
-   int side1; //lenght of side 1 of triangle
+   int side1; //length of side 1 of triangle
    int side2; //length of side 2 of triangle
    int side3; //length of side 3 of triangle
    bool equilateral; //all side lengths are equal
